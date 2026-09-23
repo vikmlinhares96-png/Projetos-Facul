@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Dan Labs 3D | Colecionáveis & Impressionismo 8K</title>
+</head>
+
+<body>
+    <!-- HEADER -->
+    <header>
+        <div class="logo">Dan Labs 3D</div>
+        <nav>
+            <ul>
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#catalogo">Catálogo</a></li>
+                <li><a href="#diferenciais">Diferenciais</a></li>
+                <li><a href="#avaliacoes">Avaliações</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+        <a href="https://wa.me/55119471409680?text=Olá!%20Vim%20pelo%20site%20da%20Dan%20Labs%20e%20gostaria%20de%20fazer%20um%20orçamento!" target="_blank" class="header-btn">
+            Falar no WhatsApp
+        </a>
+    </header>
+
+    <!-- HERO SECTION / CARROSSEL -->
+    <main class="main-container" id="hero">
+        <div class="tech-circle">
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+        </div>
+
+        <div class="list">
+            <!-- ITEM 1 -->
+            <div class="item active">
+                <div class="product-img">
+                    <img src="./img/OIP-removebg-preview.png" alt="Dragon Boost">
+                </div>
+                <div class="content-info">
+                    <div class="badges">
+                        <span class="product-tag">Edição Colecionável</span>
+                        <span class="urgency-tag">🔥 Poucas Unidades em Estoque</span>
+                    </div>
+                    <h1 class="product-name">Dragon Boost</h1>
+                    <p class="description">
+                        Estátua com nível extremo de detalhes impressa em Resina 8K de ultra-precisão. Pintura artesanal customizada com selamento em verniz UV de longa durabilidade.
+                    </p>
+                    <a href="https://wa.me/55119471409680?text=Olá!%20Gostaria%20de%20comprar%20o%20Dragon%20Boost%20em%20Resina%208K" target="_blank" class="btn">
+                        Comprar pelo WhatsApp
+                    </a>
+                </div>
+            </div>
+
+            <!-- ITEM 2 -->
+            <div class="item">
+                <div class="product-img">
+                    <img src="./img/Maine-Coon4-removebg-preview.png" alt="Escultura Maine Coon 3D">
+                </div>
+                <div class="content-info">
+                    <div class="badges">
+                        <span class="product-tag">Escultura Realista</span>
+                        <span class="urgency-tag">⭐ Modelo Exclusivo</span>
+                    </div>
+                    <h1 class="product-name">Maine Coon 3D</h1>
+                    <p class="description">
+                        Anatomia precisa e texturização de pelagem hiper-realista. A peça perfeita para amantes de felinos e entusiastas de decoração de luxo.
+                    </p>
+                    <a href="https://wa.me/55119471409680?text=Olá!%20Gostaria%20de%20comprar%20a%20escultura%20do%20Maine%20Coon%203D" target="_blank" class="btn">
+                        Comprar pelo WhatsApp
+                    </a>
+                </div>
+            </div>
+
+            <!-- ITEM 3 -->
+            <div class="item">
+                <div class="product-img">
+                    <img src="./img/Captura-de-pantalla-2024-12-16-132950-removebg-preview.png" alt="Action Figure Goku">
+                </div>
+                <div class="content-info">
+                    <div class="badges">
+                        <span class="product-tag">Anime Series</span>
+                        <span class="urgency-tag">⚡ Edição Limitada</span>
+                    </div>
+                    <h1 class="product-name">Goku SSJ</h1>
+                    <p class="description">
+                        Pose de combate ultra-dinâmica com detalhes esculpidos em vestimentas e textura corporal. Fabricado para colecionadores exigentes.
+                    </p>
+                    <a href="https://wa.me/55119471409680?text=Olá!%20Gostaria%20de%20comprar%20a%20figure%20do%20Goku%20SSJ" target="_blank" class="btn">
+                        Comprar pelo WhatsApp
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="arrows">
+            <button class="arrows-btn" id="prev" aria-label="Anterior">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 16 16">
+                    <path d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0m3.5 7.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5z" />
+                </svg>
+            </button>
+            <button class="arrows-btn" id="next" aria-label="Próximo">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0M4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5z" />
+                </svg>
+            </button>
+        </div>
+
+        <div class="indicators">
+            <div class="numbers">01</div>
+            <div class="dots">
+                <div class="dot active"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+            </div>
+        </div>
+    </main>
+
+    <!-- SEÇÃO DE DIFERENCIAIS -->
+    <section class="features-section" id="diferenciais">
+        <h2 class="section-title">Por que escolher a <span>Dan Labs 3D</span>?</h2>
+        <div class="features-grid">
+            <div class="feature-card">
+                <div class="feature-icon">💎</div>
+                <h3>Resina 8K & PLA Premium</h3>
+                <p>Impressões com definição cirúrgica, sem rugosidades ou marcas visíveis de camadas.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">🎨</div>
+                <h3>Pintura Artesanal</h3>
+                <p>Acabamento feito à mão por artistas especializados com sombreamento e iluminação avançada.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">📦</div>
+                <h3>Envio 100% Seguro</h3>
+                <p>Embalagens reforçadas em plástico bolha e caixa dupla para proteção integral no transporte.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">🛠️</div>
+                <h3>Projetos Sob Medida</h3>
+                <p>Traga o seu próprio arquivo STL/OBJ ou peça o desenvolvimento de um colecionável exclusivo.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- SEÇÃO DE CATÁLOGO EM GRID -->
+    <section class="catalog-section" id="catalogo">
+        <h2 class="section-title">Nosso <span>Catálogo Completo</span></h2>
+        <p class="section-subtitle">Modelos prontos para produção em alta definição</p>
+
+        <div class="catalog-grid">
+            <!-- Card 1 -->
+            <div class="catalog-card">
+                <div class="card-img">
+                    <img src="./img/OIP-removebg-preview.png" alt="Dragon Bust">
+                </div>
+                <div class="card-body">
+                    <span class="card-category">Filmes / Fantasia</span>
+                    <h3>Busto Dragão Guardião</h3>
+                    <ul class="card-specs">
+                        <li><strong>Material:</strong> Resina 8K</li>
+                        <li><strong>Altura:</strong> 22 cm</li>
+                        <li><strong>Acabamento:</strong> Pintura Metalizada</li>
+                    </ul>
+                    <a href="https://wa.me/55119471409680?text=Olá!%20Quero%20encomendar%20o%20Busto%20Dragão%20Guardião" target="_blank" class="card-btn">
+                        Encomendar Este Modelo
+                    </a>
+                </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="catalog-card">
+                <div class="card-img">
+                    <img src="./img/Maine-Coon4-removebg-preview.png" alt="Maine Coon 3D">
+                </div>
+                <div class="card-body">
+                    <span class="card-category">Animais Realistas</span>
+                    <h3>Escultura Maine Coon</h3>
+                    <ul class="card-specs">
+                        <li><strong>Material:</strong> Resina Premium</li>
+                        <li><strong>Comprimento:</strong> 25 cm</li>
+                        <li><strong>Acabamento:</strong> Textura Realista</li>
+                    </ul>
+                    <a href="https://wa.me/55119471409680?text=Olá!%20Quero%20encomendar%20a%20Escultura%20Maine%20Coon" target="_blank" class="card-btn">
+                        Encomendar Este Modelo
+                    </a>
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="catalog-card">
+                <div class="card-img">
+                    <img src="./img/Captura-de-pantalla-2024-12-16-132950-removebg-preview.png" alt="Goku SSJ">
+                </div>
+                <div class="card-body">
+                    <span class="card-category">Anime Series</span>
+                    <h3>Action Figure Goku SSJ</h3>
+                    <ul class="card-specs">
+                        <li><strong>Material:</strong> Resina High-Detail</li>
+                        <li><strong>Altura:</strong> 30 cm</li>
+                        <li><strong>Acabamento:</strong> Cores Vibrantes + Verniz</li>
+                    </ul>
+                    <a href="https://wa.me/55119471409680?text=Olá!%20Quero%20encomendar%20a%20Action%20Figure%20Goku%20SSJ" target="_blank" class="card-btn">
+                        Encomendar Este Modelo
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROVA SOCIAL / DEPOIMENTOS -->
+    <section class="reviews-section" id="avaliacoes">
+        <h2 class="section-title">O que dizem os <span>Colecionadores</span></h2>
+        <div class="reviews-grid">
+            <div class="review-card">
+                <div class="stars">★★★★★</div>
+                <p>"A qualidade da resina 8K é inacreditável. Não dá para ver nenhuma linha de impressão. Chegou extremamente bem embalado no interior de SP!"</p>
+                <span>- Carlos M. (Colecionador)</span>
+            </div>
+            <div class="review-card">
+                <div class="stars">★★★★★</div>
+                <p>"Comprei a escultura do gato e a pintura ficou idêntica à foto do meu pet. Atendimento sensacional no WhatsApp do Dan!"</p>
+                <span>- Juliana R.</span>
+            </div>
+            <div class="review-card">
+                <div class="stars">★★★★★</div>
+                <p>"A figura do Goku ficou o centro das atenções na minha estante. Trabalho impecável em cada detalhe do terno rasgado."</p>
+                <span>- Lucas P.</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- SEÇÃO DE CONTATO E FOOTER -->
+    <footer id="contato">
+        <div class="footer-container">
+            <div class="footer-info">
+                <h2>Dan Labs 3D</h2>
+                <p>Laboratório de manufatura aditiva focado em colecionáveis, action figures e esculturas de alta definição.</p>
+            </div>
+            <div class="footer-contact">
+                <h3>Faça seu Orçamento Rápido</h3>
+                <p>Atendimento direto pelo WhatsApp:</p>
+                <a href="https://wa.me/55119471409680" class="phone-link" target="_blank">
+                    📲 (11) 94714-09680
+                </a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Dan Labs 3D. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- BOTÃO FLUTUANTE DO WHATSAPP -->
+    <a href="https://wa.me/55119471409680?text=Olá!%20Vim%20pelo%20site%20da%20Dan%20Labs%20e%20gostaria%20de%20fazer%20uma%20encomenda!" 
+       class="whatsapp-float" 
+       target="_blank" 
+       aria-label="Contato via WhatsApp">
+        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" viewBox="0 0 16 16">
+            <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.57 6.57 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592"/>
+        </svg>
+    </a>
+
+    <script src="./scripts.js"></script>
+</body>
+
+</html>
