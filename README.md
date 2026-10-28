@@ -34,7 +34,7 @@ Durante a construção desta página, foram trabalhados os seguintes conceitos:
 
 * **GitHub:
 * **Trello (Kanban):
-* **E-mail:** `vikmlinhanes96@gmail.com`
+* **E-mail:** `vikmlinhares96@gmail.com`
 
 ---
 *Desenvolvido por Daniel e Victória — Estudante de Ciência da Computação*
